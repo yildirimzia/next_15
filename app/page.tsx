@@ -2,8 +2,11 @@
 
 const Home = () => {
   return (
-    <h1 className="text-2xl font-bold text-violet-500">Welcome to DevFlow</h1>
+    <>
+      <h1 className="h1-bold">Welcome to DevFlow</h1>
+      <h1 className="h1-bold font-space-grotesk">Welcome to DevFlow</h1>
+    </>
   );
-}
-  
+};
+
 export default Home;
